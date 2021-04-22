@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my tribute page</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            margin: 1.5rem;
+        }
+        #main{
+            background: #eee;
+            width: 99%;
+            margin: auto;
+            border-radius: 0.5%;
+            padding-bottom: 3vw;
+        }
+        #title-div{
+            margin: auto;
+            padding: 5vw;
+            text-align:center;
+            font-size: 1.5rem;
+        }
+        #title-div p{
+            font-size: 1rem;
+        }
+        
+        #img-div{
+            margin: auto;
+            text-align: center;
+            width: 95%;
+            background-color: #fff;
+        }
+        #image{
+            width: 90%;
+            height: auto;         
+            padding: 2rem;
+        }
+        #img-div figcaption{
+            font-size: 1.2rem;
+            opacity: 0.5;
+            padding: 1rem;
+        }
+
+        h2{
+            margin: 3rem;
+        }
+        #timeline-div{
+            margin: auto;
+            max-width: 700px;
+            padding:2rem;
+        }
+        li{
+            text-align:start;
+            font-size: 1.2rem;
+            line-height: 1.7rem;
+            margin: 2rem 0;
+        }
+        
+        footer p{
+            font-size: 1rem;
+            padding:1rem;
+        }
+
+        #quote{
+            margin: auto;
+            width: 50%;
+            text-align: start;
+            padding-bottom: 1rem;
+        }
+
+        @media (max-width:900px){
+            #image{
+            max-width: 600px;
+            max-height: 400px;          
+            padding: 2rem;
+        }
+
+        }
+        @media (max-width:700px){
+            #image{
+            max-width: 500px;
+            max-height: 300px;          
+            padding: 1rem;
+        }
+        #img-div figcaption{
+            font-size: 1rem;
+        }
+        }
+
+        @media (max-width:550px){
+            #image{
+            max-width: 400px;
+            max-height: 250px;          
+            padding: 1rem;
+        }
+            #title{
+                font-size:1.5rem;
+            }
+            
+            h2{
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+    <section>
+        <header>
+            <div id="title-div">
+                <h1 id="title">Emma Watson</h1>
+                <p>The World's most beautiful woman</p>
+            </div>
+        </header>
+
+        <figure id="img-div">
+            <img id="image" src=https://images7.alphacoders.com/991/thumb-1920-991291.jpg alt="Emma Watson's photo">
+            <figcaption id="img-caption">Emma Charlotte Duerre Watson is an English actress, model, and activist.</figcaption>
+        </figure>
+    </section>
+        
+    <section id="tribute-info">
+        
+        <div id="timeline-div">
+            <h2>Here is a time line of Emma Watson</h2>
+            <ul>
+                <li><strong>1995</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia laboriosam quod consequatur natus adipisci assumenda officiis ullam saepe fuga.</li>
+                <li><strong>1995</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia laboriosam quod consequatur natus adipisci assumenda officiis ullam saepe fuga.</li>
+                <li><strong>1995</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia laboriosam quod consequatur natus adipisci assumenda officiis ullam saepe fuga.</li>
+                <li><strong>1995</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia laboriosam quod consequatur natus adipisci assumenda officiis ullam saepe fuga.</li>
+                <li><strong>1995</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia laboriosam quod consequatur natus adipisci assumenda officiis ullam saepe fuga.</li>
+                <li><strong>1995</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia laboriosam quod consequatur natus adipisci assumenda officiis ullam saepe fuga.</li>
+                <li><strong>1995</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia laboriosam quod consequatur natus adipisci assumenda officiis ullam saepe fuga.</li>
+                <li><strong>1995</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia laboriosam quod consequatur natus adipisci assumenda officiis ullam saepe fuga.</li>
+            </ul>
+        </div>
+    </section>
+
+    <div id="quote">
+        <i> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, distinctio laudantium modi alias sed eaque quasi perferendis a expedita. Reprehenderit eum quam facilis aperiam eos at error dolores ut tempore saepe laborum placeat ipsum quod mollitia voluptatibus cupiditate, tempora accusamus!"</i>
+    </div>
+
+    <footer>
+        <strong><p>If you want to learn more about Emma Watson, you can go her <a id="tribute-link" style="text-decoration: none;" href="https://en.wikipedia.org/wiki/Emma_Watson" target="_blank">Wikipedia page</a></p></strong>
+    </footer>
+    </div>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
